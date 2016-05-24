@@ -1,4 +1,4 @@
-qlldr userid=daniel/123456 control=/home/oracle/database/oracle/ctl/articulo.ctl data=/home/oracle/database/oracle/csv/articulo.csv log=/home/oracle/database/oracle/log/articulo.log errors=3000
+sqlldr userid=daniel/123456 control=/home/oracle/database/oracle/ctl/articulo.ctl data=/home/oracle/database/oracle/csv/articulo.csv log=/home/oracle/database/oracle/log/articulo.log errors=3000
 
 sqlldr userid=daniel/123456 control=/home/oracle/database/oracle/ctl/vendedor.ctl data=/home/oracle/database/oracle/csv/vendedor.csv log=/home/oracle/database/oracle/log/vendedor.log errors=3000
 
