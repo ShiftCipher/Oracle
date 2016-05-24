@@ -1,5 +1,5 @@
 load data
-infile "Y:\Documents\Oracle\Planos\vendedor.csv"
+infile "/home/oracle/database/oracle/csv/vendedor.csv"
 insert
 into table vendedor
 fields terminated by ","

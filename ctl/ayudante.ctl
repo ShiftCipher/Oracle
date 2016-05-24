@@ -1,5 +1,5 @@
 load data
-infile "Y:\Documents\Oracle\Planos\ayudante.csv"
+infile "/home/oracle/database/oracle/csv/ayudante.csv"
 insert
 into table ayudante
 fields terminated by ","

@@ -1,5 +1,5 @@
 load data
-infile "Y:\Documents\Oracle\Planos\vehiculo.csv"
+infile "/home/oracle/database/oracle/csv/vehiculo.csv"
 insert
 into table vehiculo
 fields terminated by ","

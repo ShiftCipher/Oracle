@@ -1,5 +1,5 @@
 load data
-infile "Y:\Documents\Oracle\Planos\carguec.csv"
+infile "/home/oracle/database/oracle/csv/carguec.csv"
 insert
 into table carguec
 fields terminated by ","
