@@ -1,0 +1,19 @@
+{
+  "name": "oracle",
+  "version": "1.0.0",
+  "description": "Oracle Node Database",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeapps/Oracle.git"
+  },
+  "author": "XYZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeapps/Oracle/issues"
+  },
+  "homepage": "https://github.com/codeapps/Oracle#readme"
+}
