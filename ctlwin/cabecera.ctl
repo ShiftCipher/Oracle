@@ -1,5 +1,5 @@
 load data
-infile "X:\Apps\Editorial\Reference\Oracle\csv\cabecera.csv"
+infile "C:\Oracle\Data\csv\cabecera.csv"
 insert
 into table cabecera
 fields terminated by ","

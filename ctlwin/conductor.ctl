@@ -1,5 +1,5 @@
 load data
-infile "X:\Apps\Editorial\Reference\Oracle\csv\conductor.csv"
+infile "C:\Oracle\Data\csv\conductor.csv"
 insert
 into table conductor
 fields terminated by ","

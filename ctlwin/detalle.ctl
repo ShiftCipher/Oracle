@@ -1,5 +1,5 @@
 load data
-infile "X:\Apps\Editorial\Reference\Oracle\csv\detalle.csv"
+infile "C:\Oracle\Data\csv\detalle.csv"
 insert
 into table detalle
 fields terminated by ","

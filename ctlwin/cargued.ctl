@@ -1,5 +1,5 @@
 load data
-infile "X:\Apps\Editorial\Reference\Oracle\csv\cargued.csv"
+infile "C:\Oracle\Data\csv\cargued.csv"
 insert
 into table cargued
 fields terminated by ","

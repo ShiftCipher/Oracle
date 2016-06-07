@@ -1,5 +1,5 @@
 load data
-infile "X:\Apps\Editorial\Reference\Oracle\csv\vehiculo.csv"
+infile "C:\Oracle\Data\csv\vehiculo.csv"
 insert
 into table vehiculo
 fields terminated by ","

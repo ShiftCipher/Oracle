@@ -1,5 +1,5 @@
 load data
-infile "X:\Apps\Editorial\Reference\Oracle\csv\cliente.csv"
+infile "C:\Oracle\Data\csv\cliente.csv"
 insert into table cliente
 fields terminated by ","
 trailing nullcols

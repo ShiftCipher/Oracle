@@ -1,5 +1,5 @@
 load data
-infile "X:\Apps\Editorial\Reference\Oracle\csv\ayudante.csv"
+infile "C:\Oracle\Data\csv\ayudante.csv"
 insert
 into table ayudante
 fields terminated by ","
