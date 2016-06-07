@@ -1,19 +1,19 @@
-sqlldr userid=daniel/123456 control=X:\Apps\Editorial\Reference\Oracle\ctlwin\articulo.ctl data=X:\Apps\Editorial\Reference\Oracle\csv\articulo.csv log=X:\Apps\Editorial\Reference\Oracle\log\articulo.log errors=3000
+sqlldr userid=daniel/123456 control=C:\Oracle\Data\ctlwin\articulo.ctl data=C:\Oracle\Data\csv\articulo.csv log=C:\Oracle\Data\log\articulo.log errors=3000
 
-sqlldr userid=daniel/123456 control=X:\Apps\Editorial\Reference\Oracle\ctlwin\vendedor.ctl data=X:\Apps\Editorial\Reference\Oracle\csv\vendedor.csv log=X:\Apps\Editorial\Reference\Oracle\log\vendedor.log errors=3000
+sqlldr userid=daniel/123456 control=C:\Oracle\Data\ctlwin\vendedor.ctl data=C:\Oracle\Data\csv\vendedor.csv log=C:\Oracle\Data\log\vendedor.log errors=3000
 
-sqlldr userid=daniel/123456 control=X:\Apps\Editorial\Reference\Oracle\ctlwin\cliente.ctl data=X:\Apps\Editorial\Reference\Oracle\csv\cliente.csv log=X:\Apps\Editorial\Reference\Oracle\log\cliente.log errors=3000
+sqlldr userid=daniel/123456 control=C:\Oracle\Data\ctlwin\cliente.ctl data=C:\Oracle\Data\csv\cliente.csv log=C:\Oracle\Data\log\cliente.log errors=3000
 
-sqlldr userid=daniel/123456 control=X:\Apps\Editorial\Reference\Oracle\ctlwin\conductor.ctl data=X:\Apps\Editorial\Reference\Oracle\csv\conductor.csv log=X:\Apps\Editorial\Reference\Oracle\log\conductor.log errors=3000
+sqlldr userid=daniel/123456 control=C:\Oracle\Data\ctlwin\conductor.ctl data=C:\Oracle\Data\csv\conductor.csv log=C:\Oracle\Data\log\conductor.log errors=3000
 
-sqlldr userid=daniel/123456 control=X:\Apps\Editorial\Reference\Oracle\ctlwin\ayudante.ctl data=X:\Apps\Editorial\Reference\Oracle\csv\ayudante.csv log=X:\Apps\Editorial\Reference\Oracle\log\ayudante.log errors=3000
+sqlldr userid=daniel/123456 control=C:\Oracle\Data\ctlwin\ayudante.ctl data=C:\Oracle\Data\csv\ayudante.csv log=C:\Oracle\Data\log\ayudante.log errors=3000
 
-sqlldr userid=daniel/123456 control=X:\Apps\Editorial\Reference\Oracle\ctlwin\vehiculo.ctl data=X:\Apps\Editorial\Reference\Oracle\csv\vehiculo.csv log=X:\Apps\Editorial\Reference\Oracle\log\vehiculo.log errors=3000
+sqlldr userid=daniel/123456 control=C:\Oracle\Data\ctlwin\vehiculo.ctl data=C:\Oracle\Data\csv\vehiculo.csv log=C:\Oracle\Data\log\vehiculo.log errors=3000
 
-sqlldr userid=daniel/123456 control=X:\Apps\Editorial\Reference\Oracle\ctlwin\cabecera.ctl data=X:\Apps\Editorial\Reference\Oracle\csv\cabecera.csv log=X:\Apps\Editorial\Reference\Oracle\log\cabecera.log errors=3000
+sqlldr userid=daniel/123456 control=C:\Oracle\Data\ctlwin\cabecera.ctl data=C:\Oracle\Data\csv\cabecera.csv log=C:\Oracle\Data\log\cabecera.log errors=3000
 
-sqlldr userid=daniel/123456 control=X:\Apps\Editorial\Reference\Oracle\ctlwin\detalle.ctl data=X:\Apps\Editorial\Reference\Oracle\csv\detalle.csv log=X:\Apps\Editorial\Reference\Oracle\log\detalle.log errors=3000
+sqlldr userid=daniel/123456 control=C:\Oracle\Data\ctlwin\detalle.ctl data=C:\Oracle\Data\csv\detalle.csv log=C:\Oracle\Data\log\detalle.log errors=3000
 
-sqlldr userid=daniel/123456 control=X:\Apps\Editorial\Reference\Oracle\ctlwin\carguec.ctl data=X:\Apps\Editorial\Reference\Oracle\csv\carguec.csv log=X:\Apps\Editorial\Reference\Oracle\log\carguec.log errors=3000
+sqlldr userid=daniel/123456 control=C:\Oracle\Data\ctlwin\carguec.ctl data=C:\Oracle\Data\csv\carguec.csv log=C:\Oracle\Data\log\carguec.log errors=3000
 
-sqlldr userid=daniel/123456 control=X:\Apps\Editorial\Reference\Oracle\ctlwin\cargued.ctl data=X:\Apps\Editorial\Reference\Oracle\csv\cargued.csv log=X:\Apps\Editorial\Reference\Oracle\log\cargued.log errors=3000
+sqlldr userid=daniel/123456 control=C:\Oracle\Data\ctlwin\cargued.ctl data=C:\Oracle\Data\csv\cargued.csv log=C:\Oracle\Data\log\cargued.log errors=3000
