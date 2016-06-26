@@ -1,0 +1,178 @@
+
+SQL*Loader: Release 12.1.0.2.0 - Production on Tue Jun 7 15:41:32 2016
+
+Copyright (c) 1982, 2014, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   C:\Oracle\Data\ctlwin\cabecera.ctl
+Data File:      C:\Oracle\Data\csv\cabecera.csv
+  Bad File:     C:\Oracle\Data\ctlwin\cabecera.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 3000
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table CABECERA, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+CABTRN                              FIRST     *   ,       CHARACTER            
+CABDOC                               NEXT     *   ,       CHARACTER            
+CABDAT                               NEXT     *   ,       DATE YYYY-MM-DD      
+CABVEN                               NEXT     *   ,       CHARACTER            
+CABCLI                               NEXT     *   ,       CHARACTER            
+
+Record 33: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 62: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 97: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 142: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 171: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 194: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 388: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 458: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 695: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 820: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 888: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 894: Rejected - Error on table CABECERA, column CABVEN.
+ORA-01400: cannot insert NULL into ("DANIEL"."CABECERA"."CABVEN")
+
+Record 956: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 960: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 1021: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 1093: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 1303: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 1365: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 1581: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 1592: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 1943: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 2007: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 2043: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 2044: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 2089: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 2127: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 2317: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 2359: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 2482: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 2572: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 2646: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 2760: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 2779: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 3052: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 3154: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 3157: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 3158: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 3165: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 3167: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 3168: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 3169: Rejected - Error on table CABECERA.
+ORA-02291: integrity constraint (DANIEL.FK_CABECERA_CLIENTE) violated - parent key not found
+
+Record 3174: Rejected - Error on table CABECERA, column CABDOC.
+ORA-12899: value too large for column "DANIEL"."CABECERA"."CABDOC" (actual: 10, maximum: 8)
+
+
+Table CABECERA:
+  3132 Rows successfully loaded.
+  42 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  82560 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:          3174
+Total logical records rejected:        42
+Total logical records discarded:        0
+
+Run began on Tue Jun 07 15:41:32 2016
+Run ended on Tue Jun 07 15:41:32 2016
+
+Elapsed time was:     00:00:00.36
+CPU time was:         00:00:00.03

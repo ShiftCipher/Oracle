@@ -1,0 +1,108 @@
+
+SQL*Loader: Release 12.1.0.2.0 - Production on Tue Jun 7 15:41:34 2016
+
+Copyright (c) 1982, 2014, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   C:\Oracle\Data\ctlwin\carguec.ctl
+Data File:      C:\Oracle\Data\csv\carguec.csv
+  Bad File:     C:\Oracle\Data\ctlwin\carguec.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 3000
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table CARGUEC, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+CARCNUM                             FIRST     *   ,       CHARACTER            
+CARCFEC                              NEXT     *   ,       DATE YYYY-MM-DD      
+CARCCAR                              NEXT     *   ,       CHARACTER            
+CARCAYU                              NEXT     *   ,       CHARACTER            
+CARCCON                              NEXT     *   ,       CHARACTER            
+CARCDAT                              NEXT     *   ,       DATE YYYY-MM-DD      
+CARCEST                              NEXT     *   ,       CHARACTER            
+
+Record 75: Rejected - Error on table CARGUEC, column CARCAYU.
+ORA-01400: cannot insert NULL into ("DANIEL"."CARGUEC"."CARCAYU")
+
+Record 131: Rejected - Error on table CARGUEC, column CARCAYU.
+ORA-01400: cannot insert NULL into ("DANIEL"."CARGUEC"."CARCAYU")
+
+Record 137: Rejected - Error on table CARGUEC, column CARCAYU.
+ORA-01400: cannot insert NULL into ("DANIEL"."CARGUEC"."CARCAYU")
+
+Record 209: Rejected - Error on table CARGUEC, column CARCAYU.
+ORA-01400: cannot insert NULL into ("DANIEL"."CARGUEC"."CARCAYU")
+
+Record 233: Rejected - Error on table CARGUEC, column CARCAYU.
+ORA-01400: cannot insert NULL into ("DANIEL"."CARGUEC"."CARCAYU")
+
+Record 283: Rejected - Error on table CARGUEC, column CARCAYU.
+ORA-01400: cannot insert NULL into ("DANIEL"."CARGUEC"."CARCAYU")
+
+Record 359: Rejected - Error on table CARGUEC, column CARCAYU.
+ORA-01400: cannot insert NULL into ("DANIEL"."CARGUEC"."CARCAYU")
+
+Record 362: Rejected - Error on table CARGUEC, column CARCAYU.
+ORA-01400: cannot insert NULL into ("DANIEL"."CARGUEC"."CARCAYU")
+
+Record 529: Rejected - Error on table CARGUEC, column CARCAYU.
+ORA-01400: cannot insert NULL into ("DANIEL"."CARGUEC"."CARCAYU")
+
+Record 571: Rejected - Error on table CARGUEC, column CARCAYU.
+ORA-01400: cannot insert NULL into ("DANIEL"."CARGUEC"."CARCAYU")
+
+Record 572: Rejected - Error on table CARGUEC, column CARCAYU.
+ORA-01400: cannot insert NULL into ("DANIEL"."CARGUEC"."CARCAYU")
+
+Record 606: Rejected - Error on table CARGUEC, column CARCAYU.
+ORA-01400: cannot insert NULL into ("DANIEL"."CARGUEC"."CARCAYU")
+
+Record 665: Rejected - Error on table CARGUEC, column CARCAYU.
+ORA-01400: cannot insert NULL into ("DANIEL"."CARGUEC"."CARCAYU")
+
+Record 668: Rejected - Error on table CARGUEC, column CARCAYU.
+ORA-01400: cannot insert NULL into ("DANIEL"."CARGUEC"."CARCAYU")
+
+Record 669: Rejected - Error on table CARGUEC, column CARCAYU.
+ORA-01400: cannot insert NULL into ("DANIEL"."CARGUEC"."CARCAYU")
+
+Record 670: Rejected - Error on table CARGUEC, column CARCAYU.
+ORA-01400: cannot insert NULL into ("DANIEL"."CARGUEC"."CARCAYU")
+
+Record 671: Rejected - Error on table CARGUEC, column CARCAYU.
+ORA-01400: cannot insert NULL into ("DANIEL"."CARGUEC"."CARCAYU")
+
+Record 672: Rejected - Error on table CARGUEC, column CARCFEC.
+ORA-01843: not a valid month
+
+
+Table CARGUEC:
+  654 Rows successfully loaded.
+  18 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 115584 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:           672
+Total logical records rejected:        18
+Total logical records discarded:        0
+
+Run began on Tue Jun 07 15:41:34 2016
+Run ended on Tue Jun 07 15:41:34 2016
+
+Elapsed time was:     00:00:00.15
+CPU time was:         00:00:00.05
