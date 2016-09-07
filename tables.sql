@@ -75,7 +75,7 @@ create table cargued(
 );
 
 create table detalle(
-  dettrn char(3)not null,
+  dettrn char(3) not null,
   detdoc char(8) not null,
   detite char(15) not null,
   detcan decimal(8,2) not null,
@@ -85,4 +85,25 @@ create table detalle(
   constraint pk_detalle primary key(dettrn,detdoc,detite),
   constraint fk_detalle_cabecera foreign key(dettrn,detdoc) references cabecera(cabtrn,cabdoc),
   constraint fk_detalle_articulo foreign key(detite) references articulo(codart)
+);
+
+create table artifin(
+  id char(15) not null,
+  barcode char(18) not null,
+  description varchar(70) not null,
+  utilities_by_package decimal(5,2) not null,
+  packages_by_box decimal(5,2) not null,
+  state char(1) not null,
+  price_by_unity decimal(8,2) not null,
+  price_by_box decimal(8,2) not null,
+  iva decimal(5,2) not null,
+  stock decimal(8,2) not null,
+  box_cost decimal(8,2) not null,
+  price_by_package decimal(8,2) not null,
+  package_cost decimal(8,2) not null,
+  unity_cost decimal(8,2) not null,
+  date_ven date,
+  stock_min decimal(8,2) not null,
+  second_barcode char(13) not null,
+  third_barcode char(18) not null
 );
