@@ -5,10 +5,10 @@ into table artifin
 fields terminated by ";"
 trailing nullcols
 (
-id,
+idart,
 barcode,
 description,
-utilities_by_package,
+quantity_by_package,
 packages_by_box,
 state,
 price_by_unity,

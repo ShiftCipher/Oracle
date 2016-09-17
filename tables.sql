@@ -88,22 +88,60 @@ create table detalle(
 );
 
 create table artifin(
-  id char(15) not null,
-  barcode char(18) not null,
-  description varchar(70) not null,
-  utilities_by_package decimal(5,2) not null,
-  packages_by_box decimal(5,2) not null,
-  state char(1) not null,
-  price_by_unity decimal(8,2) not null,
-  price_by_box decimal(8,2) not null,
-  iva decimal(5,2) not null,
-  stock decimal(8,2) not null,
-  box_cost decimal(8,2) not null,
-  price_by_package decimal(8,2) not null,
-  package_cost decimal(8,2) not null,
-  unity_cost decimal(8,2) not null,
+  idart char(15) not null,
+  barcode char(18),
+  description varchar(70),
+  quantity_by_package integer,
+  packages_by_box integer,
+  state char(1),
+  price_by_unity float,
+  price_by_box float,
+  iva decimal(5,2),
+  stock integer,
+  box_cost float,
+  price_by_package float,
+  package_cost float,
+  unity_cost float,
   date_ven date,
-  stock_min decimal(8,2) not null,
-  second_barcode char(13) not null,
-  third_barcode char(18) not null
+  stock_min float,
+  second_barcode char(13),
+  third_barcode char(18)
 );
+
+select quantity_by_package, packages_by_box
+  from artifin
+  where idart = '007702001062874';
+
+select
+  from artifin
+  where idart = '007702001062874';
+
+create or replace procedure mostrar()
+  is
+  begin
+  packages = select artifin.packages_by_box, artifin.quantity_by_package
+    from artifin;
+  DBMS_OUTPUT.put_line('Packages : ' || packages);
+
+create or replace procedure calcular(
+  id IN varchar2,
+  quantity IN number
+)
+is
+  packages number;
+  boxes number;
+declare
+  cursor cantidad is select quantity_by_package, packages_by_box
+    from artifin
+    where idart = id;
+  v_packqua artifin.quantity_by_package%type;
+  v_packbox artifin.packages_by_box%type;
+  begin
+    open cantidad;
+    fetch cantidad into v_packqua, v_packbox;
+    packages := v_packqua / quantity;
+    boxes := v_packbox / packages;
+    DBMS_OUTPUT.put_line('Packages : ' || packages);
+    DBMS_OUTPUT.put_line('Boxes : ' || boxes);
+  end;
+/

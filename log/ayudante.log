@@ -1,5 +1,5 @@
 
-SQL*Loader: Release 12.1.0.2.0 - Production on Tue Jun 7 15:41:32 2016
+SQL*Loader: Release 12.1.0.2.0 - Production on Tue Sep 6 20:27:16 2016
 
 Copyright (c) 1982, 2014, Oracle and/or its affiliates.  All rights reserved.
 
@@ -26,27 +26,4 @@ TRAILING NULLCOLS option in effect
 CODAYU                              FIRST     *   ,       CHARACTER            
 NOMAYU                               NEXT     *   ,       CHARACTER            
 
-Record 26: Rejected - Error on table AYUDANTE, column NOMAYU.
-ORA-01400: cannot insert NULL into ("DANIEL"."AYUDANTE"."NOMAYU")
-
-
-Table AYUDANTE:
-  25 Rows successfully loaded.
-  1 Row not loaded due to data errors.
-  0 Rows not loaded because all WHEN clauses were failed.
-  0 Rows not loaded because all fields were null.
-
-
-Space allocated for bind array:                  33024 bytes(64 rows)
-Read   buffer bytes: 1048576
-
-Total logical records skipped:          0
-Total logical records read:            26
-Total logical records rejected:         1
-Total logical records discarded:        0
-
-Run began on Tue Jun 07 15:41:32 2016
-Run ended on Tue Jun 07 15:41:32 2016
-
-Elapsed time was:     00:00:00.08
-CPU time was:         00:00:00.02
+SQL*Loader-601: For INSERT option, table must be empty.  Error on table AYUDANTE
